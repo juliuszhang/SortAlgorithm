@@ -25,7 +25,7 @@ public class SelectSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 3, 2, 9, 9, 5, 10};
+        int[] arr = {1, 3, 2, 9, 9, 5, 10};
         new SelectSort().selectSort(arr);
         System.out.println(Arrays.toString(arr));
     }
